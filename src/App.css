@@ -1,0 +1,233 @@
+body{
+background-image: url("/src/images/futuristic-background-design/3607424.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+height: 560px;
+}
+
+.headfl{
+  background: rgb(49,41,181);
+  background: -moz-linear-gradient(90deg, rgba(49,41,181,1) 0%, rgba(225,247,0,1) 29%, rgba(0,113,238,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(49,41,181,1) 0%, rgba(225,247,0,1) 29%, rgba(0,113,238,1) 100%);
+  background: linear-gradient(90deg, rgba(49,41,181,1) 0%, rgba(225,247,0,1) 29%, rgba(0,113,238,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3129b5",endColorstr="#0071ee",GradientType=1);
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #07182E;
+    
+    -webkit-text-stroke: 2px black;
+    -webkit-text-fill-color: white;
+}
+
+.input {
+  background-color: #383838;
+  border: 1ex solid none;
+  border-top-width: 1.7em;
+  margin: 0;
+  padding: 0;
+  color: #383838;
+  word-wrap: break-word;
+  outline: 7px solid #383838;
+  height: 30px;
+  font-size: 17px;
+  text-align: center;
+  transition: all 1s;
+  max-width: 190px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+
+ }
+ 
+
+
+ .input:hover {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+ }
+ 
+ .input:focus {
+  border-top-width: 0.2em;
+  background-color: #f1e8e8;
+ }
+
+ .buttonpro {
+  --btn-default-bg: black;
+  --btn-padding: 15px 20px;
+  --btn-hover-bg: green;
+  --btn-transition: 0.3s;
+  --btn-letter-spacing: 0.1rem;
+  --btn-animation-duration: 1.2s;
+  --btn-shadow-color: green;
+  --btn-shadow: 0 2px 10px 0 var(--btn-shadow-color);
+  --hover-btn-color: #7241ff;
+  --default-btn-color: #fff;
+  --font-size: 16px;
+  --font-weight: 600;
+  --font-family: Menlo, Roboto Mono, monospace;
+  border-radius: 6em;
+
+}
+
+/* button settings 👆 */
+
+.btn-center{
+
+  position: relative;
+  left: 85px;
+ 
+}
+
+.buttonpro {
+  box-sizing: border-box;
+  padding: var(--btn-padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--default-btn-color);
+  font: var(--font-weight) var(--font-size) var(--font-family);
+  background: var(--btn-default-bg);
+  cursor: pointer;
+  transition: var(--btn-transition);
+  overflow: hidden;
+  box-shadow: var(--btn-shadow);
+  border-radius: 6em;
+  border: 2px solid #2a2b3a;
+}
+
+.buttonpro span {
+  letter-spacing: var(--btn-letter-spacing);
+  transition: var(--btn-transition);
+  box-sizing: border-box;
+  position: relative;
+  background: inherit;
+}
+
+.buttonpro span::before {
+  box-sizing: border-box;
+  position: absolute;
+  content: "";
+  background: inherit;
+}
+.buttonpro:focus {
+  scale: 1.09;
+}
+.buttonpro:hover,
+.buttonpro:focus {
+  background: var(--btn-default-bg);
+  box-shadow: 0px 0px 10px 0px rgba(119, 68, 255, 0.7);
+  border: 2px solid rgb(9, 255, 0);
+}
+
+.buttonpro:hover span,
+.buttonpro:focus span {
+  color: rgb(9, 255, 0);
+}
+
+.buttonpro:hover span::before,
+.buttonpro:focus span::before {
+  animation: chitchat linear both var(--btn-animation-duration);
+}
+
+@keyframes chitchat {
+  0% {
+    content: "Friends";
+  }
+
+  5% {
+    content: "Lovers";
+  }
+
+  10% {
+    content: "Affection";
+  }
+
+  15% {
+    content: "Marriage";
+  }
+
+  20% {
+    content: "Enemies";
+  }
+
+  25% {
+    content: "Siblings";
+  }
+
+  30% {
+    content: "Friends";}35%{content: "Lovers";
+  }
+
+  40% {
+    content: "Affection";
+  }
+
+  45% {
+    content: "Enemies";
+  }
+
+  50% {
+    content: "Siblings";
+  }
+
+  55% {
+    content: "Friends";
+  }
+
+  60% {
+    content: "Lovers";
+    right: 0;
+  }
+
+  65% {
+    content: "Affection";
+    right: 0;
+  }
+
+  70% {
+    content: "Enemies";
+    right: 0;
+  }
+
+  75% {
+    content: "Siblings";
+    right: 0;
+  }
+
+  80% {
+    content: "Friends";
+    right: 0;
+  }
+
+  85% {
+    content: "Lovers";
+    right: 0;
+  }
+
+  90% {
+    content: "Affection";
+    right: 0;
+  }
+
+  95% {
+    content: "Enemies";
+    right: 0;
+  }
+
+  100% {
+    content: "";
+    right: 0;
+  }
+}
+
+.warmessage{
+  font-family: fantasy;
+}
+
+.partyimg{
+  background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3c1cTN4Z3p3eGpkdzV5cXF2cDk2anUwbmNjY2xyeTN2aDZybTM1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PMV7yRpwGO5y9p3DBx/giphy.webp");
+  background-size: cover;
+
+}
+
